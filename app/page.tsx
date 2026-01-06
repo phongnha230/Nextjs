@@ -3,13 +3,13 @@ export default function Home() {
   const skills = ['React', 'JavaScript', 'Next.js', 'Tailwind CSS'];
   
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+    <div className="min-h-screen bg-linear-to-br from-slate-900 via-slate-800 to-slate-900">
       <main className="max-w-4xl mx-auto px-6 py-16">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-400 to-cyan-500 p-1">
+          <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-linear-to-br from-blue-400 to-cyan-500 p-1">
             <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center">
-              <span className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-500">
+              <span className="text-5xl font-bold text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-cyan-500">
                 TĐ
               </span>
             </div>
@@ -35,7 +35,7 @@ export default function Home() {
             {skills.map((skill) => (
               <div
                 key={skill}
-                className="bg-gradient-to-br from-blue-500 to-cyan-500 p-1 rounded-lg"
+                className="bg-linear-to-br from-blue-500 to-cyan-500 p-1 rounded-lg"
               >
                 <div className="bg-slate-800 px-6 py-4 rounded-md text-center">
                   <p className="text-white font-semibold">{skill}</p>
